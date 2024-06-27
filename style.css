@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+
+}
+
+.HeadSection {
+    display: flex;
+    border-style: solid;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    border-width: 2px;
+    border-color: rgb(228, 228, 228);
+    padding-left: 40px;
+    padding-right: 40px;
+
+
+}
+.HeadSection input{
+    
+    margin-left: 100px;
+    
+
+}
+
+.HeadSearch {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(228, 228, 228);
+    height: 25px;
+    text-align: center;
+    width: 300px;
+
+
+
+}
+
+.IconsHead {
+    display: flex;
+    height: 40px;
+
+    gap: 24px;
+
+
+
+}
+
+.PostSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.PostCard {
+
+    margin-top: 50px;
+    width: 500px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(228, 228, 228);
+
+
+
+
+
+}
+
+.PostHead {
+    display: flex;
+    height: 40px;
+
+    justify-content: space-between;
+
+
+
+
+}
+
+.PostHeadLeft {
+    display: flex;
+    justify-content: center;
+    padding: 4px;
+    margin-left: 8px;
+    gap: 8px;
+
+
+
+}
+
+.PostHeadLeft p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.PostHeadRight {
+    display: flex;
+    justify-content: center;
+    margin-right: 8px;
+    margin-top: 4px;
+    height: 30px;
+
+
+
+}
+
+.picture {
+    overflow: hidden;
+
+
+
+
+}
+
+.picture img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+
+}
+
+.IconsFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+
+.IconsFooterLeft {
+    display: flex;
+    gap: 4px;
+    height: 30px;
+    margin-left: 8px;
+
+
+
+}
+
+.IconsFooterRight {
+    display: flex;
+
+    gap: 4px;
+    height: 30px;
+    margin-left: 8px;
+
+
+
+}
+.LikeArea{
+    display: flex;
+    height: 25px;
+    padding: 2px;
+    margin-left: 8px;
+    gap: 4px;
+    margin-top: 4px;
+   
+
+
+
+}
+.LikeArea p{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    
+
+
+}
+.TagText{
+    display: flex;
+    margin-left:10px;
+    
+
+
+
+}
+.InputSection{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    justify-content: space-between;
+    border-top: 2px solid rgb(228, 228, 228);
+    
+    
+}
+.InputSection input{
+    border:none;
+    margin-left: 8px;
+    height: 48px;
+    width: 500px;
+    outline: none;
+    
+}
+.InputSection img{
+   height: 30px;
+   padding: 8px;
+}
+.CommentSection{
+    gap: 2px;
+    margin-left: 8px;
+}
